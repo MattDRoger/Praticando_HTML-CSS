@@ -1,0 +1,35 @@
+
+.destinos__cinque {
+    background: url('../../imagens/cinqueterre.jpg')no-repeat  center / cover;
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+
+.destinos__new-york {
+    background: url('../../imagens/newyork.jpg')no-repeat  center / cover;
+    width: 230px;
+    height: 200px;
+    position: relative;
+}
+
+.destinos__san-francisco {
+    background: url('../../imagens/sanfran.jpg')no-repeat  center / cover;
+    width: 230px;
+    height: 200px;
+    position: relative;
+}
+
+.destinos__pisa {
+    background: url('../../imagens/pisa.jpg')no-repeat  center / cover;
+    width: 230px;
+    height: 200px;
+    position: relative;
+}
+
+.destinos__paris {
+    background: url('../../imagens/paris.jpg')no-repeat  center / cover;
+    width: 230px;
+    height: 200px;
+    position: relative;
+}

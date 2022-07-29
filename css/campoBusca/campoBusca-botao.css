@@ -1,0 +1,15 @@
+.campo-busca__botao {
+    padding: 0.75rem 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    background: #616161;
+    color: #fff;
+    border: none;
+    display: block;
+}
+
+.campo-busca__botao:hover, :focus {
+    transition: 0.1s;
+    cursor: pointer;
+    transform: scale(1.1);
+}

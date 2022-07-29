@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/Projeto.css">
+    <!-- CSS do cabeçalho -->
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/cabecalho/cabecalho-iconlogo.css">
+    <link rel="stylesheet" href="css/cabecalho/cabecalho-logo.css">
+    <link rel="stylesheet" href="css/cabecalho/cabecalho-pesquisa.css">
+        <!-- CSS do menu -->
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/menu/menu-banner.css">
+    <link rel="stylesheet" href="css/menu/menu-busca.css">
+        <!-- CSS da disponibilidade -->
+    <link rel="stylesheet" href="css/disponibilidade/disponibilidade.css">
+    <link rel="stylesheet" href="css/disponibilidade/disponibilidade-reserva.css">
+    <link rel="stylesheet" href="css/disponibilidade/disponibilidade-ativa.css">
+        <!-- CSS do campo de busca dentro de disponibilidade -->
+    <link rel="stylesheet" href="css/busca.css">
+    <link rel="stylesheet" href="css/campoBusca/campos-de-busca.css">
+    <link rel="stylesheet" href="css/campoBusca/campoBusca.css">
+    <link rel="stylesheet" href="css/campoBusca/campoBusca-titulo.css">
+    <link rel="stylesheet" href="css/campoBusca/campoBusca-label.css">
+    <link rel="stylesheet" href="css/campoBusca/campoBusca-input.css">
+    <link rel="stylesheet" href="css/campoBusca/campoBusca-botao.css">
+        <!-- CSS das promoções -->
+    <link rel="stylesheet" href="css/promocoes.css">
+    <link rel="stylesheet" href="css/descontos/descontos.css">
+    <link rel="stylesheet" href="css/descontos/descontos-titulo.css">
+    <link rel="stylesheet" href="css/descontos/descontos-frase.css">
+    <link rel="stylesheet" href="css/principal.css">
+        <!-- CSS dos destinos -->
+    <link rel="stylesheet" href="css/destinos/destinos.css">
+    <link rel="stylesheet" href="css/destinos/destinos-nome.css">
+    <link rel="stylesheet" href="css/destinos/destinos-foto.css">
+
+
+    <title>Projeto Estagiário</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div>
+            <img src="imagens/localização icon.jpeg" alt="Início" class="cabecalho__iconLogo">
+            <h1 class="cabecalho__logo">Logo</h1>
+            <input type="search" class="cabecalho__pesquisa">
+        </img>
+    </header>
+    <section class="menu">
+        <div class="menu__banner"></div>
+        <div class="menu__busca">
+            <div class="disponibilidade">
+                <h2 class="disponibilidade__reserva disponibilidade__flight ativa">Flight</h2>
+                <h2 class="disponibilidade__reserva disponibilidade__hotel">Hotel</h2>
+                    <h2 class="disponibilidade__reserva disponibelidade__rental">Rental</h2>
+                </div>
+                <div class="busca">
+                    <h3 class="busca__titulo">Travel the world with us</h3>
+                    
+                    <div class="campos-de-busca">
+                        <div class="campo-busca">
+                            <label class="campo-busca__label" for="from">From</label>
+                            <input class="campo-busca__input" type="text" placeholder="Departing from" id="from" required>
+                        </div>
+                        <div class="campo-busca">
+                            <label class="campo-busca__label" for="to">To</label>
+                            <input class="campo-busca__input" type="text" placeholder="Arriving at" id="to" required>
+                        </div>
+                    </div>
+                    <input class="campo-busca__botao" type="submit" name="pesquisa" id="pesquisar-datas" value="Search and find dates">
+                </div>
+            </div>
+        </section>
+    <main class="principal">
+        <section class="promocoes">
+            <div class="descontos">
+                <h2 class="descontos__titulo">Good Offers Right Now</h2>
+                <p class="descontos__frase">Up to <strong>50%</strong> discount.</p>
+            </div>
+            <div class="destinos">
+                <div class="destinos__destaque">
+                    <div class="destinos__cinque destinos__foto">
+                        <p class="destinos__nome">Cinque Terre</p>
+                    </div>
+                </div>
+                <div class="destinos__diversos">
+                    <div class="destinos__foto destinos__new-york">
+                        <p class="destinos__nome ">New York</p>
+                    </div>
+                    <div class="destinos__foto destinos__san-francisco">
+                        <p class="destinos__nome ">San Francisco</p>
+                    </div>
+                    <div class="destinos__foto destinos__pisa">
+                        <p class="destinos__nome">Pisa</p>
+                    </div>
+                    <div class="destinos__foto destinos__paris">
+                        <p class="destinos__nome">Paris</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2>Explore Nature</h2>
+                <p>Travel with us and see nature at its finest.</p>
+            </div>
+            <div>
+                <img src="imagens/ocean.jpg" alt="Foto de uma praia sentido o oceano">
+                <p>West Coast, Norway</p>
+                <p>Roundtrip from $79</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <p>Buy Tickets</p>
+            </div>
+            <div>
+                <img src="imagens/mountains.jpg" alt="Foto de montanhas congeladas na Austria">
+                <p>Mountains, Austria</p>
+                <p>One-way fron $39</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <p>Buy Tickets</p>
+            </div>
+        </section>
+        <section>
+            <h5>Get the best offers first!</h5>
+            <p>Join our newsletter.</p>
+            <label for="email"></label>
+            <input type="email" placeholder="Your Email address" required>
+            <input type="submit" id="email-usuario" value="Subscribe">
+        </section>
+        <section>
+            <div>
+                <h5>Contact</h5>
+                <p>Let us book your next trip!</p>
+                <ul>
+                    <li>Chicago,US</li>
+                    <li>Phone: +00 151515</li>
+                    <li>Email: mail@mail.com</li>
+                </ul>
+            </div>
+            <form action="Contact">
+                <input type="text" placeholder="Name" required>
+                <input type="email" name="email-contact" placeholder="Email" id="email-contact" required>
+                <input type="msg" name="message" placeholder="Message" id="message" required>
+                <input type="submit" value="SEND MESSAGE">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Find US On</p>
+    </footer>
+</body>
+
+</html>

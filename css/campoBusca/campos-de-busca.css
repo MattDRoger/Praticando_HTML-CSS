@@ -1,0 +1,5 @@
+.campos-de-busca {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

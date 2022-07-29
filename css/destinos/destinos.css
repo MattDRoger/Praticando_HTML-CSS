@@ -1,0 +1,14 @@
+.destinos {
+    height: 400px;
+}
+
+.destinos__destaque {
+    width: 50%;
+}
+
+.destinos_diversos {
+    display: flex;
+    flex-flow: column wrap;
+    background: red;
+    width: 50%;
+}
