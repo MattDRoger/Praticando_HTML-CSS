@@ -4,3 +4,7 @@
     bottom: 10px;
     left: 10px;
 }
+
+.destinos__nome:hover, :focus {
+    cursor: pointer;
+}

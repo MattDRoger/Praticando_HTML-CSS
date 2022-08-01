@@ -1,0 +1,9 @@
+.viagem__westCoast {
+    background: url('../../imagens/ocean.jpg') no-repeat center / cover;
+    height: 80%;
+}
+
+.viagem__mountains {
+    background: url('../../imagens/mountains.jpg') no-repeat center / cover;
+    height: 80%;
+}

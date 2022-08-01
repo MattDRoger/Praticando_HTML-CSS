@@ -1,0 +1,14 @@
+.cadastro__botaoSubscribe {
+    padding: 0.60rem 1rem;
+    margin: 1rem 0 0;
+    background: #f38981;
+    color: #f1f1f1;
+    border: none;
+}
+
+.cadastro__botaoSubscribe:hover {
+    background: #f44336;
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: 0.2s;
+}

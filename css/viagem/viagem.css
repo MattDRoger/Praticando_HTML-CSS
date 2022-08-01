@@ -1,0 +1,11 @@
+.viagem {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    width: 49%;
+    background: #fff;
+}
+
+.viagem:hover {
+    cursor: pointer;
+}
